@@ -1,0 +1,22 @@
+    pragma solidity >=0.8.0;
+
+    import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+    import "@openzeppelin/contracts/ownership/Ownable.sol";
+
+    contract AxolotolImperium is Ownable, ERC721 {
+
+        struct Metadata {
+            uint8 color;
+            string tittle;
+        }
+
+        mapping (uint256 => Metadata) id_to_date;
+
+        string private _currentBaseURI;
+
+        constructor() internal ERC721 ("AxolotlImperium", "AXOL") {
+
+        }
+
+
+    }

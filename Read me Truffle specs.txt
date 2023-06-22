@@ -1,0 +1,18 @@
+Truffle console, use specific library inside the blockchain.
+
+Ctrl+d, finish truffle console
+
+Truffle compile, lee contratos creados
+Truffle migrate, manda contratos compilados al blockchain (Ganache para testeo)
+
+
+
+Uninstall Truffle
+
+npm uninstall -g truffle
+
+Reinstall a specific version of Truffle
+
+npm install -g truffle@3.4.6
+
+
